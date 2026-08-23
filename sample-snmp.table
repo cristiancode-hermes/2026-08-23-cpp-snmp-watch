@@ -1,0 +1,19 @@
+# sample dump — comments must be skipped by the parser
+Ip: Forwarding DefaultTTL InReceives InHdrErrors InAddrErrors ForwDatagrams InUnknownProtos InDiscards InDelivers OutRequests OutDiscards OutNoRoutes ReasmTimeout ReasmReqds ReasmOKs ReasmFails FragOKs FragFails FragCreates OutTransmits
+Ip: 1 64 1843200 2 0 0 0 0 1843000 1712000 0 4 0 0 0 0 0 0 0 1712000
+Icmp: InMsgs InErrors InCsumErrors InDestUnreachs InTimeExcds InParmProbs InSrcQuenchs InRedirects InEchos InEchoReps OutMsgs OutErrors OutDestUnreachs OutEchos OutEchoReps
+Icmp: 42 3 0 39 0 0 0 0 3 0 40 0 37 0 3
+IcmpMsg: InType3 OutType3 InType8 OutType0
+IcmpMsg: 39 37 3 3
+Tcp: RtoAlgorithm RtoMin RtoMax MaxConn ActiveOpens PassiveOpens AttemptFails EstabResets CurrEstab InSegs OutSegs RetransSegs InErrs OutRsts InCsumErrors
+Tcp: 1 200 120000 -1 88210 44102 812 1204 18 2100450 2688100 312 0 4410 0
+Udp: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumErrors IgnoredMulti MemErrors
+Udp: 120440 14 0 118900 0 0 0 0 0
+UdpLite: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumErrors IgnoredMulti MemErrors
+UdpLite: 0 0 0 0 0 0 0 0 0
+TcpExt: SyncookiesSent SyncookiesRecv SyncookiesFailed ListenOverflows ListenDrops TCPTimeouts TCPAbortOnTimeout DelayedACKs TCPFastRetrans TW TCPRcvCoalesce TCPOrigDataSent
+TcpExt: 0 0 2 0 7 19 0 88012 412 44120 210044 1688000
+IpExt: InNoRoutes InTruncatedPkts InMcastPkts OutMcastPkts InBcastPkts OutBcastPkts InOctets OutOctets InCsumErrors InNoECTPkts
+IpExt: 0 0 120 80 0 0 2488336000 1843200000 0 1960000
+MPTcpExt: MPCapableSYNRX MPCapableSYNTX MPCurrEstab
+MPTcpExt: 0 0 0
